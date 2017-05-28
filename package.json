@@ -1,8 +1,12 @@
 {
   "name": "stromdao-bo-discovergy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Discovergy Smart-Meter Operation for StromDAO Energy Blockchain",
   "main": "discovergy.js",
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.5.0"
+  },
   "scripts": {
     "test": "mocha"
   },
