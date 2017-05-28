@@ -1,0 +1,31 @@
+{
+  "name": "stromdao-bo-discovergy",
+  "version": "0.0.1",
+  "description": "Discovergy Smart-Meter Operation for StromDAO Energy Blockchain",
+  "main": "discovergy.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/BusinessObject-Discovergy-Module.git"
+  },
+  "keywords": [
+    "smartmeter",
+    "blockchain",
+    "energy",
+    "power",
+    "amr",
+    "stromdao"
+  ],
+  "author": "Thorsten Zoerner <thorsten.zoerner@stromdao.de>",
+  "license": "SEE LICENSE IN license.md",
+  "bugs": {
+    "url": "https://github.com/energychain/BusinessObject-Discovergy-Module/issues"
+  },
+  "homepage": "https://github.com/energychain/BusinessObject-Discovergy-Module#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "stromdao-businessobject": "^0.3.0"
+  }
+}
