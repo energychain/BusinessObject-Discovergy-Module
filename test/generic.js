@@ -11,14 +11,14 @@ describe('StromDAO: Discovegy Module', function() {
 	this.timeout(300000);
     var external_id = Math.random()*10000000; 
 	var node = new StromDAONode.Node({external_id:external_id,testMode:true});
-	var ci_token ={ oauth_token: '8347c186a0de4843b9134b779de99465',
-  oauth_token_secret: '6a943bf9a63e4c7f9382f4fe9f460f00',
+	var ci_token ={ oauth_token: '279b9fb9f12b4b50b011baf2d0e575ac',
+  oauth_token_secret: '8fb15049a772435d9193adb1764641d6',
   oauth_version: '1.0',
   oauth_options: 
    { requestUrl: 'https://api.discovergy.com/public/v1/oauth1/request_token',
      accessUrl: 'https://api.discovergy.com/public/v1/oauth1/access_token',
-     consumerKey: 'glsrq8ah4j2nverk59inc11am7',
-     consumerSecret: '7sq2ov5g80hdk2rjkoqlh706gs',
+     consumerKey: 'u3tb6l77ek4itob9ee4lgvv0eg',
+     consumerSecret: 'lqkvav2gncrt8oobrdt7to7pj9',
      signatureMethod: 'HMAC-SHA1',
      version: '1.0',
      clientOptions: 
