@@ -30,6 +30,6 @@
   "homepage": "https://github.com/energychain/BusinessObject-Discovergy-Module#readme",
   "dependencies": {
     "request": "^2.81.0",
-    "stromdao-businessobject": "^0.3.0"
+    "stromdao-businessobject": "^0.4.0"
   }
 }
